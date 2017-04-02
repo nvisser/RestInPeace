@@ -51,6 +51,12 @@ public class DistrictServiceTest {
 
         input.put("Echte wijk", 2005);
         output.put("Echte wijk", 18049);
+
+        input.put("Utrecht transwijk", 2009);
+        output.put("Utrecht transwijk", 30745);
+
+        input.put("Almere Haven", 2003);
+        output.put("Almere Haven", 21637);
     }
 
     @org.junit.Test

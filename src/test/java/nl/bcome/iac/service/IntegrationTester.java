@@ -39,6 +39,12 @@ public class IntegrationTester {
 
         input.put("Echte wijk", 2005);
         output.put("Echte wijk", new InhabitantResponse(18049));
+
+        input.put("Utrecht transwijk", 2009);
+        output.put("Utrecht transwijk", new InhabitantResponse(30745));
+
+        input.put("Almere Haven", 2003);
+        output.put("Almere Haven", new InhabitantResponse(21637));
     }
 
     void run() throws Exception {
